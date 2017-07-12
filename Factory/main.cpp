@@ -9,7 +9,7 @@
 struct A
 {
     A() {std::cout << "A::A()" << std::endl;}
-    ~A() {std::cout << "A::~A()" << std::endl;}
+    virtual ~A() {std::cout << "A::~A()" << std::endl;}
 };
 
 struct B : public A
