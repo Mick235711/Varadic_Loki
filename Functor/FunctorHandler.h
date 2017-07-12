@@ -7,7 +7,7 @@
 
 #include "FunctorImpl.h"
 #include <type_traits>
-#include "../TypeList/TypeList.h"
+#include "TypeList/TypeList.h"
 
 template<typename Func, typename R, typename... P>
 class FunctorHandler : public FunctorImpl<R, P...>

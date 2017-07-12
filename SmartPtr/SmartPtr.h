@@ -9,7 +9,7 @@
 #include "Conversion.h"
 #include "Checking.h"
 #include "Storage.h"
-#include "../TypeList/TypeManip.h"
+#include "TypeList/TypeManip.h"
 
 // ByRef
 // Helper for Colvin/Gibbons trick for SmartPtr

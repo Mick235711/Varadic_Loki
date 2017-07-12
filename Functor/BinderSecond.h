@@ -7,7 +7,7 @@
 
 #include <type_traits>
 #include "FunctorImpl.h"
-#include "../TypeList/TypeList.h"
+#include "TypeList/TypeList.h"
 #include "Functor.h"
 
 template<typename R, typename P1, typename P2, typename... PR>

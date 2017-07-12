@@ -6,10 +6,10 @@
 #define SMALLOBJ_SMALLOBJECT_H
 
 #include <cstddef>
-#include "../Threading/Threading.h"
+#include "Threading/Threading.h"
 #include "FixedAllocator.h"
 #include "SmallObjAllocator.h"
-#include "../Singleton/SingletonHolder.h"
+#include "Singleton/SingletonHolder.h"
 
 template
 <

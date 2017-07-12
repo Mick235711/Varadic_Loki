@@ -5,7 +5,7 @@
 #ifndef VISITOR_VISITOR_H
 #define VISITOR_VISITOR_H
 
-#include "../TypeList/TypeList.h"
+#include "TypeList/TypeList.h"
 
 // BaseVisitor
 // The base class of any Acyclic Visitor

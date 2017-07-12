@@ -6,10 +6,10 @@
 #define MULTIMETHODS_DISPATCHER_H
 
 #include <utility>
-#include "../TypeList/TypeManip.h"
-#include "../TypeList/TypeList.h"
+#include "TypeList/TypeManip.h"
+#include "TypeList/TypeList.h"
 #include "TypeInfo/TypeInfo.hpp"
-#include "../AssocVector/AssocVector.h"
+#include "AssocVector/AssocVector.h"
 #include "Functor/Functor.hpp"
 #include "Functor/FunctorHandler.hpp"
 #include "Casting.h"

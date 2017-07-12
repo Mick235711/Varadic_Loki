@@ -6,7 +6,7 @@
 #define SMARTPTR_OWNERSHIP_H
 
 #include <cassert>
-#include "../SmallObj/SmallObject.h"
+#include "SmallObj/SmallObject.h"
 
 // RefCounted
 // Provides a classic external reference counting implementation of OwnershipPolicy

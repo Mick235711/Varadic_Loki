@@ -6,7 +6,7 @@
 #define FACTORY_FACTORY_H
 
 #include "FactoryError.h"
-#include "../AssocVector/AssocVector.h"
+#include "AssocVector/AssocVector.h"
 
 // Factory
 // A generic object factory

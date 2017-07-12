@@ -6,7 +6,7 @@
 #define FUNCTOR_MEMFNHANDLER_H
 
 #include "FunctorImpl.h"
-#include "../TypeList/TypeList.h"
+#include "TypeList/TypeList.h"
 
 template<typename PTO, typename PTMF, typename R, typename... P>
 class MemFnHandler : public FunctorImpl<R, P...>

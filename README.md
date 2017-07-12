@@ -26,8 +26,17 @@ So, I rewrited it in newer standard --- `C++0x`!
 ## Install
     git clone https://github.com/Mick235711/Variadic_Loki.git
     cd Variadic_Loki
-    cmake .
+    mkdir build
+    cd build
+    cmake ..
     make
+
+## Test
+    cd Variadic_Loki
+    cd build
+    cmake --target Test ..
+    make
+    ./Test
 
 ***
 ## Minor Change

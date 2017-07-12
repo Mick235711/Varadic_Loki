@@ -7,7 +7,7 @@
 
 #include <memory>
 #include "FunctorImpl.h"
-#include "../TypeList/TypeList.h"
+#include "TypeList/TypeList.h"
 
 template<typename R, typename... P> class FunctorImpl;
 

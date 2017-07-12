@@ -5,8 +5,8 @@
 #ifndef ABSTRACTFACTORY_ABSTRACTFACTORY_H
 #define ABSTRACTFACTORY_ABSTRACTFACTORY_H
 
-#include "../TypeList/TypeList.h"
-#include "../TypeList/HierarchyGenerator.h"
+#include "TypeList/TypeList.h"
+#include "TypeList/HierarchyGenerator.h"
 #include "FactoryUnit.h"
 
 // AbstractFactory

@@ -7,7 +7,7 @@
 
 #include "Create.h"
 #include "Lifetime.h"
-#include "../Threading/Threading.h"
+#include "Threading/Threading.h"
 
 // SingletonHolder
 // Provides Singleton amenities for a type T

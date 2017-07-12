@@ -5,7 +5,7 @@
 #ifndef ABSTRACTFACTORY_FACTORYUNIT_H
 #define ABSTRACTFACTORY_FACTORYUNIT_H
 
-#include "../TypeList/TypeManip.h"
+#include "TypeList/TypeManip.h"
 #include <cassert>
 
 // AbstractFactoryUnit

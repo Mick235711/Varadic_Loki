@@ -6,7 +6,7 @@
 #define FACTORY_CLONEFACTORY_H
 
 #include "FactoryError.h"
-#include "../TypeInfo/TypeInfo.h"
+#include "TypeInfo/TypeInfo.h"
 
 // CloneFactory
 // A generic cloning factory

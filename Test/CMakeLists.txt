@@ -3,5 +3,8 @@ project(Test)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp)
-add_executable(Test ${SOURCE_FILES})
+add_executable(TestAbstractFactory AbstractFactory.cpp)
+add_executable(TestAssocVector AssocVector.cpp)
+
+add_custom_target(Test)
+add_dependencies(Test TestAbstractFactory TestAssocVector)

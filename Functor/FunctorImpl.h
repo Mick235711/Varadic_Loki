@@ -5,7 +5,7 @@
 #ifndef FUNCTOR_FUNCTORIMPL_H
 #define FUNCTOR_FUNCTORIMPL_H
 
-#include "../TypeList/TypeList.h"
+#include "TypeList/TypeList.h"
 #include "Functor.h"
 
 template<typename R, typename... P> class Functor;
