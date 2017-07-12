@@ -8,10 +8,10 @@
 #include <utility>
 #include "../TypeList/TypeManip.h"
 #include "../TypeList/TypeList.h"
-#include "../TypeInfo/TypeInfo.cpp"
+#include "TypeInfo/TypeInfo.hpp"
 #include "../AssocVector/AssocVector.h"
-#include "../Functor/Functor.cpp"
-#include "../Functor/FunctorHandler.cpp"
+#include "Functor/Functor.hpp"
+#include "Functor/FunctorHandler.hpp"
 #include "Casting.h"
 
 // InvocationTraits

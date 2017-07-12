@@ -1,10 +1,10 @@
 #include <iostream>
-#include "Functor.cpp"
-#include "FunctorHandler.cpp"
-#include "MemFnHandler.cpp"
-#include "BinderFirst.cpp"
-#include "BinderSecond.cpp"
-#include "FunctorChainer.cpp"
+#include "Functor/Functor.hpp"
+#include "Functor/FunctorHandler.hpp"
+#include "Functor/MemFnHandler.hpp"
+#include "Functor/BinderFirst.hpp"
+#include "Functor/BinderSecond.hpp"
+#include "Functor/FunctorChainer.hpp"
 
 using namespace std;
 

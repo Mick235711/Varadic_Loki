@@ -1,6 +1,6 @@
 #include <iostream>
-#include "Visitor.h"
-#include "Visitable.h"
+#include "Visitor/Visitor.h"
+#include "Visitor/Visitable.h"
 
 class DocElement : public BaseVisitable<>
 {

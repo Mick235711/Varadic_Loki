@@ -3,5 +3,5 @@ project(TypeInfo)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp TypeInfo.cpp TypeInfo.h)
+set(SOURCE_FILES main.cpp TypeInfo.hpp TypeInfo.h)
 add_executable(TypeInfo ${SOURCE_FILES})

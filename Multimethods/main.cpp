@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Dispatcher.h"
+#include "Multimethods/Dispatcher.h"
 #include <vector>
 #include <random>
 #include <ctime>

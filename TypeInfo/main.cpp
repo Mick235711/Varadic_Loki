@@ -1,6 +1,6 @@
 #include <iostream>
 #include <map>
-#include "TypeInfo.cpp"
+#include "TypeInfo/TypeInfo.hpp"
 
 struct B{};
 struct A{};

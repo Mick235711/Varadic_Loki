@@ -1,10 +1,10 @@
 #include <iostream>
-#include "../TypeInfo/TypeInfo.cpp"
-#include "../Functor/Functor.cpp"
-#include "../Functor/FunctorHandler.cpp"
-#include "../Singleton/SingletonHolder.cpp"
-#include "Factory.h"
-#include "CloneFactory.h"
+#include "TypeInfo/TypeInfo.hpp"
+#include "Functor/Functor.hpp"
+#include "Functor/FunctorHandler.hpp"
+#include "Singleton/SingletonHolder.hpp"
+#include "Factory/Factory.h"
+#include "Factory/CloneFactory.h"
 
 struct A
 {

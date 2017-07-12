@@ -1,8 +1,10 @@
 #include <iostream>
 #include <vector>
 #include <ctime>
-#include "../Singleton/SingletonHolder.cpp"
-#include "SmallObject.cpp"
+#include "SmallObj/FixedAllocator.hpp"
+#include "SmallObj/SmallObjAllocator.hpp"
+#include "Singleton/SingletonHolder.hpp"
+#include "SmallObj/SmallObject.hpp"
 
 struct A
 {

@@ -1,5 +1,6 @@
 #include <iostream>
-#include "SingletonHolder.cpp"
+#include "Singleton/SingletonHolder.hpp"
+#include "Singleton/Longevity.hpp"
 
 struct A
 {

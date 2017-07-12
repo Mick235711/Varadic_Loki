@@ -3,5 +3,5 @@ project(Functor)
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(SOURCE_FILES main.cpp Functor.cpp Functor.h FunctorImpl.cpp FunctorImpl.h FunctorHandler.cpp FunctorHandler.h MemFnHandler.cpp MemFnHandler.h BinderFirst.cpp BinderFirst.h BinderSecond.cpp BinderSecond.h FunctorChainer.cpp FunctorChainer.h)
+set(SOURCE_FILES main.cpp Functor.hpp FunctorImpl.hpp FunctorHandler.hpp MemFnHandler.hpp BinderFirst.hpp BinderSecond.hpp FunctorChainer.hpp Functor.h FunctorImpl.h FunctorHandler.h MemFnHandler.h BinderFirst.h BinderSecond.h FunctorChainer.h)
 add_executable(Functor ${SOURCE_FILES})

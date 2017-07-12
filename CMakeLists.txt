@@ -92,3 +92,7 @@ add_subdirectory(Threading)
 add_subdirectory(TypeInfo)
 add_subdirectory(TypeList)
 add_subdirectory(Visitor)
+add_subdirectory(Test)
+
+enable_testing()
+add_test(NAME MyTest COMMAND Test)

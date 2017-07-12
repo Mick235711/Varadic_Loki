@@ -3,5 +3,5 @@ project(SmallObj)
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(SOURCE_FILES main.cpp FixedAllocator.cpp FixedAllocator.h SmallObjAllocator.cpp SmallObjAllocator.h SmallObject.cpp SmallObject.h)
+set(SOURCE_FILES main.cpp FixedAllocator.hpp FixedAllocator.h SmallObjAllocator.hpp SmallObjAllocator.h SmallObject.hpp SmallObject.h)
 add_executable(SmallObj ${SOURCE_FILES})

@@ -1,6 +1,6 @@
 #include <iostream>
-#include "TypeList.h"
-#include "HierarchyGenerator.h"
+#include "TypeList/TypeList.h"
+#include "TypeList/HierarchyGenerator.h"
 
 template<typename T>
 struct Holder

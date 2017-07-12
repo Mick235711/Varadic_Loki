@@ -1,8 +1,8 @@
 #include <iostream>
-#include "../SmallObj/FixedAllocator.cpp"
-#include "../SmallObj/SmallObjAllocator.cpp"
-#include "../Singleton/SingletonHolder.cpp"
-#include "SmartPtr.h"
+#include "SmallObj/FixedAllocator.hpp"
+#include "SmallObj/SmallObjAllocator.hpp"
+#include "Singleton/SingletonHolder.hpp"
+#include "SmartPtr/SmartPtr.h"
 #include <map>
 
 struct A
